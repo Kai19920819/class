@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.text {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.textbox {
+    width: 400px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p {
+    text-align: left;
+    color: #000;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: red;
+}
+
+.slogan {
+    background-color: red;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.slogan h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.recommand h2 {
+    font-size: 40px;
+    color: green;
+    text-align: center;
+}
+
+.classcontent {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.classbox {
+    width: 320px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+}
+
+.classbox img {
+    width: 100%;
+}
+
+.classbox h3 {
+    font-size: 32px;
+}
+
+.classbox .p-blue {
+    color: blue;
+}
+
+.classbox p {
+    color: gray;
+    font-size: 18px;
+}
+
+.classbox p s {
+    font-size: 20px;
+}
+
+.classbox p span {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+}
+
+.classbox .p-conter {
+    text-align: center;
+}
+
+.classbox .div-conter a {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.classbox .div-conter a:hover {
+    background-color: rgb(163, 72, 72);
+}
+
+@media(min-width:640px) and (max-width:1119px) {
+    
+    .text {
+        width: 80%;
+    }
+
+    .classcontent {
+        width: 80%;
+    }
+
+    .classbox {
+        width: 80%;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:639px) {
+    #wrap {
+        width: 100%;
+        margin: auto;
+    }
+
+    .text {
+        display: block;
+        width: 80%;
+    }
+
+    .textbox {
+        width: 80%;
+        margin: auto;
+    }
+
+    .classcontent {
+        display: block;
+        width: 90%;
+    }
+
+    .classbox {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+}
